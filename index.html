@@ -50,7 +50,7 @@
       // TODO: register event onkeypress / addEventListener untuk input
       // sehingga saat di input ditekan enter akan menjalankan fungsi fnClickHandler juga
       function enterKey(event) {
-        if (event.keyCode === 13){
+        if (event.keyCode == 13){
           output.appendChild(fnClickHandler(input.value));
         }
       }
